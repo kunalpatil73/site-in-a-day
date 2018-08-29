@@ -19,7 +19,38 @@ iframe {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:orange;
+}
+
+header {
+    background-color: gray;
+}
+
+header,
+footer {
+    text-align: center;
 
 }
 
 
+/* typography */
+
+h1 { 
+    font-size: 50px;
+}
+
+h2 { 
+    font-size: 30px;
+}
+
+
+h1,
+h2,
+p,
+li {
+    padding-bottom: 1em;
+
+}
+
+.item { 
+    background-color: lightblue;
+}
